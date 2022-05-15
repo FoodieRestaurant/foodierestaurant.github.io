@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* html{
+    overflow: hidden;
+} */
+body{
+    background-color:#FFE3CA ;
+}
+
+.landing_main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg, #5e2e01cb 0%, rgba(255, 190, 130, 0.75) 100%);
+
+    /* border: 1px solid black; */
+}
+.landing_main img.back{
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.7;
+    position: absolute;
+    filter: blur(2px);
+    z-index: -1;
+}
+.landing_main .header{
+    width: 100vw;
+    padding: 2rem;
+}
+.landing_main .header>span{
+    font-size: 27px;
+    font-weight: 800;
+    color: rgba(255, 227, 202, 1);
+    ;
+}
+.landing_main  .landing_headline{
+    position: absolute;
+    transform: translateY(-130px);
+}
+.landing_headline>div:nth-of-type(1){
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 52px;
+    top: 200px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFE8D3;
+
+}
+.landing_headline>div:nth-of-type(2){
+    position: absolute;
+    width: 278px;
+    height: 122px;
+    left: 50px;
+    top: 240px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 61px;
+
+    color: #FFE7D0;
+}
+.landing_main>button{
+    position: absolute;
+width: 227px;
+height: 53px;
+left: 67px;
+top: 460px;
+
+background: #683200;
+box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.36);
+border-radius: 26.5px;
+z-index: 1;
+border: none;
+color: #FFE3CA ;
+font-weight: 600;
+font-size: 20px;
+}
+.landing_main .bottom_curve{
+    background-image: url(/img/landingpage/Subtract.png);
+    position: absolute;
+width: 360px;
+height: 278px;
+left: 0px;
+top: 470px;
+/* border: 1px solid black; */
+
+}
+.landing_main .bottom_curve .explore{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 119px;
+    top: 80px;
+    line-height: .7;
+}
+.landing_main .bottom_curve .explore>span:nth-of-type(1){
+    font-weight: 500px;
+    font-size: 15px;
+}
+.landing_main .bottom_curve .explore>span:nth-of-type(2){
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.landing_main .bottom_curve .explore>img{
+    margin-top: 15px;
+    filter: drop-shadow(5px 5px 10px rgba(79, 38, 1, 0.21));
+
+}
+
+.choose_details>.box1 img, .choose_details>.box2 img, .choose_details>.box3 img{
+    width: 73px;
+}
+
+.search{
+    position: relative;
+    height: 506px;
+    width: 100%;
+    padding: 1rem;
+    background-position: center;
+    background-size: cover;
+    background: black;
+    padding: 0;
+    margin: 0;
+
+}
+
+.search_bg{
+    position: absolute;
+}
+
+.search_bg>.overlay{
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+
+.search>.search_bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    
+}
+
+.search form{
+    z-index: 3;
+    position: absolute;
+}
+
+.search>form>input{
+    z-index:1 ;
+    /* height: 200px; */
+}
+
+.search .popular{
+    position: absolute;
+}
+
+/* Landing page 2---->>> */
+
+.landing_content{
+    position: relative;
+    width: 100%;
+    height: 2386px;
+    background: #FFE3CA;
+}
+.landing_content .choose_head{
+    position: absolute;
+width: fit-content;
+height: 41px;
+left: 40px;
+top: 49px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 40px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #683200;
+}
+.landing_content img.choose_img{
+    position: absolute;
+width: 195.67px;
+height: 130.88px;
+left: 26px;
+top: 10px;
+transform: translate(-30px, -30px);
+}
