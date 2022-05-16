@@ -10,6 +10,11 @@
 /* html{
     overflow: hidden;
 } */
+@media (min-width: 576px) {
+    body{
+        display: none;
+    }
+}
 body{
     background-color:#FFE3CA ;
 }
@@ -39,6 +44,9 @@ body{
     font-weight: 800;
     color: rgba(255, 227, 202, 1);
     ;
+}
+.explore img{
+    width: 1.6875em;
 }
 .p-menu1{
     height: 100%;
