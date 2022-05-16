@@ -1,0 +1,282 @@
+header{
+    background-image: url(/img/Aboutus/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 20em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: -1;
+    
+}
+header h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 57px;
+    color: #FFE3CA;
+    transform: translateY(-1em);
+}
+
+.container{
+    position: relative;
+    top: 15.6em;
+    height: fit-content;
+    width: 100vw;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #FFE3CA;
+    transform: translateY(-1em);
+}
+.container .landing{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .landing .landing_hd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .9em;
+    margin-top: -13.5em;
+    width: 12.53em;
+    height: 3em;
+    padding: .5em;
+    /* left: calc(50% - 188px/2);
+    top: calc(50% - 45px/2 - 727px); */
+    background: #FFF7EF;
+    box-shadow: 5px 4px 12px rgba(177, 112, 52, 0.34);
+    border-radius: 24px;
+    /* transform: translateY(5.3em); */
+}
+.container .landing .landing_hd h3{
+    margin-right: 0.933em;
+}
+.container .landing>img{
+    height: 20.082em;
+    transform: translate(-1em,-1em);
+}
+.container .landing .txt{
+    height: 9.8em;
+    margin-top: -1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container .landing .txt h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    
+    color: #3A1C00;
+    margin-bottom: 1.2em;
+    
+}
+.container .landing .txt h3 span{
+    font-weight: 800;
+    font-size: 1.4em;
+    line-height: 40px;
+}
+.container .landing .txt p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    width: 25em;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 1.866666em;
+}
+.container .landing .txt p span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(104, 50, 0, 0.5);
+}
+.container .landing button{
+    margin-top: .5em;
+    width: 12.533em;
+    height: 3em;
+    background: #8B4300;
+    box-shadow: 5px 4px 9px rgba(63, 30, 0, 0.397);
+    border-radius: 9px;
+    border: none;
+    padding: 1.7em 3.06666em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition: .5s ease;
+}
+.container .landing button:focus{
+    box-shadow: none;
+    /* border: 5px solid #fff; */
+}
+.container .landing button div{
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: .7em;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+/* FOODIE's Specials ------>>>> */
+
+.special{
+    margin: 0 1.5em;
+    transform: translateY(-8em);
+    /* border: 1px solid black; */
+}
+.special h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 27px;
+    color: #FF993A;
+}
+.special h4 span{
+    font-weight: 800;
+    font-size: 1.3em;
+    line-height: 33px;
+    color: #683200;
+}
+.special .dish{
+    margin-top: 2.5333em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.special .dish .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 8.625em;
+    height: 12em;
+    background: #FFF8F1;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin-bottom: 1.533em;
+}
+.special .dish .card:nth-of-type(1), .special .dish .card:nth-of-type(3), .special .dish .card:nth-of-type(5){
+    margin-left: 0em;
+}
+.special .dish .card img:nth-of-type(2){
+    width: 4.4em;
+    height: 0.6666em;
+    margin-top: .0625em;
+    margin-bottom: .437em;
+}
+.special .dish .card img:nth-of-type(1){
+    width: 4.933em;
+    filter: drop-shadow(0px 4px 10px rgba(240, 180, 53, 0.4));
+}
+.special .dish .card h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: .25em;
+    color: #000000;
+}
+.special .dish .card h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    color: #4D2500;
+    margin-top: .3em;
+    margin-bottom: 2.6225em;
+}
+.special .dish .card div{
+    width: 8.625em;
+    height: 2.6225em;
+    position: absolute;
+    bottom: 0em;
+    background: #EFCE4A;
+    border: 1px solid #EFCE4A;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+.special .dish .card div p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #4D2500;
+
+}
+.special .dish .card:nth-of-type(2) img:nth-of-type(1){
+    width: 4.437em;
+}
+.special .dish .card:nth-of-type(3) img:nth-of-type(1){
+    width: 3.7em;
+}
+.special .dish .card:nth-of-type(4) img:nth-of-type(1){
+    width: 5em;
+}
+.special .dish .card:nth-of-type(4) h5, .special .dish .card:nth-of-type(4) img:nth-of-type(2), .special .dish .card:nth-of-type(4) img:nth-of-type(1){
+    margin-top: .4em;
+}
+.special button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 3.1875em;
+    background: #9e4c00;
+    box-shadow: 5px 4px 11px rgba(63, 30, 0, 0.39);
+    border: none;
+    border-radius: 9px;
+    margin: 1.9375em auto;
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    transition: .5s ease;
+}
+.special button div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 1em;
+}
+.special button img{
+    width: 1em;
+}
+.special button:focus{
+    box-shadow: none;
+}
