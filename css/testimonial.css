@@ -1,0 +1,198 @@
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(/img/Aboutus/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 20em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: -1;
+    
+}
+header h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 57px;
+    color: #FFE3CA;
+    transform: translateY(-1em);
+}
+.container{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container  .landing_hd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .9em;
+    /* margin-top: -1.4em; */
+    width: 16em;
+    height: 3em;
+    padding: .5em;
+    /* left: calc(50% - 188px/2);
+    top: calc(50% - 45px/2 - 727px); */
+    background: #FFF7EF;
+    box-shadow: 5px 4px 12px rgba(177, 112, 52, 0.34);
+    border-radius: 24px;
+    transform: translateY(-1.5em);
+}
+.container  .landing_hd h3{
+    margin-right: 0.933em;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main .hd{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #B17034;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2em;
+}
+.main .hd span{
+    font-size: 30px;
+    line-height: 45px;
+    color: #4D2500;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cards .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 16.75em;
+    height: 16.75em;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(9px);
+    border-radius: 30px;
+    padding: 1.0625em;
+    margin-bottom: 3.375em;
+}
+.cards .card:nth-of-type(2){
+    height: 14.125em;
+}
+.cards .card:nth-of-type(3){
+    height: 13em;
+}
+.cards .card:nth-of-type(4){
+    height: 14.875em;
+}
+.card img{
+    width: 2.1875em;
+    filter: drop-shadow(5px 5px 16px rgba(77, 37, 0, 0.514));
+}
+.card p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 1.5em;
+}
+.card i p{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    transform: translateX(4em);
+}
+ button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 3.1875em;
+    background: #9e4c00;
+    box-shadow: 5px 4px 11px rgba(63, 30, 0, 0.39);
+    border: none;
+    border-radius: 9px;
+    margin: 1.9375em auto;
+    margin-top: 0em;
+    margin-bottom: 1em ;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    transition: .5s ease;
+}
+ button div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 1em;
+}
+ button img{
+    width: 1em;
+}
+ button:focus{
+    box-shadow: none;
+}
+.bg_img{
+    position: absolute;
+    z-index: -1;
+}
+.bg_img:nth-of-type(1){
+    width: 6.8125em;
+    height: 6.75em;
+    right: 0;
+    top: 17em;
+}
+.bg_img:nth-of-type(2){
+    width: 7.125em;
+    height: 7.14125em;
+    left: 0px;
+    top: 34.0625em;
+}
+.bg_img:nth-of-type(3){
+    width: 6em;
+    height: 6em;
+    right: 0px;
+    top: 51em;
+}
+.bg_img:nth-of-type(4){
+    width: 133px;
+    height: 129px;
+    left: 0px;
+    top: 67em;
+}

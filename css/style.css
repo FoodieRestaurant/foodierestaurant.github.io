@@ -52,7 +52,7 @@ body{
    position: absolute;
    top: 1em;
    right: 1em;
-   height: 45px;
+   height: 40px;
    margin: 10px;
    display: -ms-grid;
    display: grid;
@@ -66,7 +66,7 @@ body{
    padding:1em;
    border-radius: 50%;
    cursor: pointer; */
-   z-index: 120;
+   /* z-index: 120; */
  }
  
  .hamburger1 div {
@@ -75,6 +75,7 @@ body{
    width: 40px;
    height: 5px;
    margin-top: 7px;
+   border-radius: 50px;
    -webkit-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
    transform: translateX(-.4em);
@@ -134,24 +135,25 @@ body{
    -webkit-transition: all 0.3s ease;
    transition: all 0.3s ease;
    color: #FFE3CA;
- }
- 
- /* ::-webkit-scrollbar {
-     display: none;
- } */
- 
- .menu1 a:first-child {
-   margin-top: 5em;
- }
- 
- .menu1 a:last-child {
-   margin-bottom: 40px;
- }
- 
- .link1 {
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.menu1 a:first-child {
+    margin-top: 5em;
+}
+
+.menu1 a:last-child {
+    margin-bottom: 40px;
+}
+
+.link1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFE3CA;
     width: 100%;
     margin: 0;
     padding: .5em 0;
@@ -363,6 +365,8 @@ transform: translate(-30px, -30px);
 .landing_content .bg_dishes:nth-of-type(1){
     position: absolute;
     top: 15em;
+    width: 113px;
+    height: 142px;
 }
 .landing_content .bg_dishes:nth-of-type(2){
     top: 26em;
@@ -529,6 +533,8 @@ transform: translate(-30px, -30px);
     overflow: hidden;
 }
 .app>img:nth-of-type(1){
+    width: 133px;
+height: 129px;
     position: relative;
     transform: translate(-9em, -1.5em);
     z-index: -3;
@@ -651,6 +657,8 @@ footer .head span{
     color: #B17034; 
 }
 footer .head .social_media a img{
+    width: 1.5em;
+    height: 1.5em;
     margin-left: 3.33em;
 }
 footer .head .social_media a:nth-of-type(1) img{
